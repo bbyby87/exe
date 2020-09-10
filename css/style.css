@@ -319,11 +319,11 @@ summary{display:list-item}
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}
 .owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:0;padding:0!important;font:inherit;outline:0}
-.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev{background:url(../img/arrow-sprite.png?2009071825) left top no-repeat;width:30px;height:30px;position:absolute;margin:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
-.owl-carousel .owl-nav button.owl-prev{left:0;top:50%}
-.owl-carousel .owl-nav button.owl-prev:active,.owl-carousel .owl-nav button.owl-prev:hover{background-position:-30px 0}
-.owl-carousel .owl-nav button.owl-next{background-position:0 -30px;right:0;top:50%}
-.owl-carousel .owl-nav button.owl-next:active,.owl-carousel .owl-nav button.owl-next:hover{background-position:-30px -30px}
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev{background:url(../img/arrow-sprite.png?2009071825) left top no-repeat;width:30px;height:30px;background-position:0 -30px;position:absolute;margin:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.owl-carousel .owl-nav button.owl-prev{right:0;top:50%}
+.owl-carousel .owl-nav button.owl-prev:active,.owl-carousel .owl-nav button.owl-prev:hover{background-position:-30px -30px}
+.owl-carousel .owl-nav button.owl-next{background-position:0 0px;left:0;top:50%}
+.owl-carousel .owl-nav button.owl-next:active,.owl-carousel .owl-nav button.owl-next:hover{background-position:-30px 0px}
 .owl-carousel.owl-loaded{display:block}
 .owl-carousel.owl-loading{opacity:0;display:block}
 .owl-carousel.owl-hidden{opacity:0}
